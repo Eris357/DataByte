@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1680B5;
+}
+
+nav ul {
+    background-color: #1680B5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover {
+    transition: all 0.3s ease;
+    background-color: white;
+    color: #1680B5;
+}
+
+header {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+header #databyte-h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+header #databyte-p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.why-choose {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#why-h1 {
+    margin: 20px;
+    color: white;
+}
+
+#why {
+    width: 30%;
+    margin: 10px;
+    margin-bottom: 30px;
+    height: 150px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#why h1, p {
+    color: #000;
+    margin: 20px;
+}
+
+.news-article {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    height: 100%;
+    width: 45%;
+}
+
+.news-article #news-h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#news {
+    margin: 5px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#news p {
+    color: white;
+    text-align: center;
+}
+
+#news img {
+    width: 60%;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.second-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.image {
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.image-2 {
+    background-image: url("cyber.png");
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.image h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin: 20px;
+    color: white;
+    width: 95%;
+}
+
+.image-2 h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-us {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    width: 100%;
+    height: 70%;
+}
+
+#about-us-h1 {
+    color: white;
+    margin: 20px;
+}
+
+.about-us #about {
+    display: flex;
+    flex-direction: row;
+    background-color: #1680B5;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-us #about p {
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.about-us #about img {
+    margin: 30px;
+    border-radius: 10px;
+    width: 40%;
+    object-fit: cover;
+}
+
+#services-h1 {
+    margin: 20px;
+    color: white;
+}
+
+.offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+#offer {
+    background-color: white;
+    border-radius: 10px;
+    height: 80%;
+    margin: 15px;
+    padding: 10px;
+}
+
+#offer h1 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+#offer p {
+    margin: 5px;
+    padding: 10px;
+    height: 50%;
+}
+
+#offer button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: #1680B5;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+@media all and (max-width: 600px) {
+    #databyte-h1{
+        font-size: 20px;
+    }
+
+    .why-choose {
+        flex-direction: column;
+    }
+
+    .why-choose #why-h1 {
+        font-size: 24px;
+    }
+
+    #why {
+        width: 90%;
+        height: 100%;
+    }
+
+    .news-article {
+        width: 90%;
+    }
+
+    .image, .image-2 {
+        width: 90%;
+    }
+
+    #news {
+        flex-direction: column;
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .image h1 {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .image-2 h1 {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+    #offer{
+        font-size: 10px;
+        height: 90%;
+    }
+
+    .offers{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-us #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 20px;
+    }
+
+    .about-us #about img{
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 990px) {
+    #why {
+        height: 50%;
+    }
+
+    .why-choose #why-h1 {
+        font-size: 26px;
+    }
+
+    .news-article {
+        width: 90%;
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .image, .image-2 {
+        width: 90%;
+    }
+
+    .about-us #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 1250px) {
+    #why {
+        height: 100%;
+    }
+    
+    .news-article {
+        width: 90%;
+    }
+
+    .image, .image-2 {
+        width: 90%;
+    }
+
+    .image-2 h1 {
+        font-size: 17px;
+        width: 90%;
+        margin: 20px;
+    }
+
+    .offers p {
+        font-size: 13px;
+        height: 80%;
+    }
+
+    #news p{
+        font-size: 10px;
+    }
+} 
